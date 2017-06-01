@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classified Ads</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse dark-navbar">
+        <div class="container-fluid">
+          <div class="left">
+            <a class="navbar-brand brand" href="#">Classified Ads</a>
+          </div>
+          
+          <div class="lang">
+            <div><button type="button" class="btn btn-default post">Post your ad</button></div>
+            <div>
+              <img src="img/UK.jpg" alt="UK">
+              <div>
+                <input id="lang-tog" type="checkbox">
+                <label for="lang-tog"  class="lang-toggle"></label>
+              </div>
+              <img src="img/GE.jpg" alt="GE">
+            </div>
+          </div>
+        </div>  
+      </nav>
+
+      <nav class="navbar navbar-default light-navbar">
+        <div class="container-fluid">
+          <form class="row-fluid">
+            <div class="col-md-2 col-sm-4 main-search">
+              <select class="btn dropdown-toggle city"><span class="caret"></span>
+                <option><a href="#">Los Angeles</a></option>
+                <option><a href="#">New York</a></option>
+                <option><a href="#">Siattle</a></option>
+                <option><a href="#">Miami</a></option>
+                <option><a href="#">Washington</a></option>
+              </select> 
+            </div>                 
+            <div class="col-md-6 col-sm-8 main-search">
+              <input type="text" class="form-control" placeholder="What are you looking?">
+            </div>
+            <div class="col-md-3 col-sm-7 main-search">
+              <select class="btn dropdown-toggle rubric"><span class="caret"></span>
+                <option disabled selected>Choose rubric</option>
+                <option><a href="#">Retro Cars</a></option>
+                <option><a href="#">Modern Cars</a></option>
+                <option><a href="#">Motorcycles</a></option>
+                <option><a href="#">Accesories</a></option>
+              </select> 
+            </div>
+            <div class="col-md-1 col-sm-5 main-search">
+              <button type="button" class="btn btn-default search">Search</button> 
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row-fluid">
+
+          <article>
+            <div class="grid"> 
+
+              <div class="item grid-item thumbnail">
+                <div class="price">$2,500</div>
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+        
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+              <div class="price">$2,300</div>
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+              <div class="price">$5,000</div>
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+         
+              <div class="item grid-item thumbnail grid-item--width2">
+              <div class="price">$2,700</div>
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+        
+              <div class="item grid-item thumbnail">
+              <div class="price">$1,000</div>
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+        
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+         
+              <div class="item grid-item thumbnail">
+              <div class="price">$11,500</div>
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+         
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+
+              <div class="item grid-item thumbnail">
+                <img src="img/1.jpg" alt="car">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore odio ullam nisi nihil alias cumque voluptates accusamus inventore obcaecati!</p>
+                </div>
+                <div class="post-info">
+                  <a href="#">Cars</a> >> <a href="#">Honda</a>
+                  <p class="date-post">Today, 11:01 am</p>
+                </div>
+              </div>
+          
+            </div>
+          </article>
+
+          <aside>
+            <div class="grid">
+
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner1.jpg" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner2.png" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner3.jpg" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner4.jpg" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner1.jpg" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner2.png" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner3.jpg" alt="car">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="#" class="thumbnail banner">
+                  <img src="img/banner4.jpg" alt="car">
+                </a>
+              </div>
+                  
+            </div>
+          </aside> 
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav class="navbar navbar-default light-navbar">
+        <div class="container-fluid">
+          <div class="left">
+            <a class="navbar-brand brand" href="#">Classified Ads</a>
+          </div>
+          
+          <div class="social">
+            <a href="#"><img src="img/glyphicons-social-3-google-plus.png" alt="G"></a>
+            <a href="#"><img src="img/glyphicons-social-18-linked-in.png" alt="i"></a>
+            <a href="#"><img src="img/glyphicons-social-31-facebook.png" alt="F"></a>
+            <a href="#"><img src="img/glyphicons-social-32-twitter.png" alt="T"></a>
+            <a href="#"><img src="img/glyphicons-social-39-skype.png" alt="S"></a>
+          </div>
+        </div>  
+      </nav>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

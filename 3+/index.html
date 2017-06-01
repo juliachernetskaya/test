@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="plugin.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <section>
+    <div class="hint-left" data-hint="left-hint"><p>Left</p></div>
+    <div class="hint-bottom" data-hint="bottom-hint"><p>Bottom</p></div>
+    <div class="hint-top" data-hint="top-hint"><p>Top</p></div>
+    <div class="hint-right" data-hint="right-hint"><p>Right</p></div>
+  </section>
+
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="jquery.plugin.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".hint-left").plugin({
+        'delay': '100'
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".hint-bottom").plugin({
+        'delay': '50'
+      });  
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".hint-top").plugin({
+        'delay': '500'
+      });  
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".hint-right").plugin({
+        'delay': '800'
+      });  
+    });
+  </script>
+</body>
+</html>
